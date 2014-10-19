@@ -1,0 +1,42 @@
+<html>
+<head>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.playSound.js"></script>	
+	<script src="js/jmcc.contador.js"></script>	
+	<link rel="stylesheet" href="css/estilo.css"  media="screen" />	
+</head>
+<body>
+	<div id="painel">
+		<h1>JMCC13<span>contador de c&eacute;lulas sangu&iacute;neas</span></h1>
+	
+		<ul id="contador" class="celula">
+			<li id="cel-baso" class="contagem"><h2>BASO (z)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-eosi" class="alternada contagem "><h2>EOSI(x)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-myelo" class="contagem"><h2>MYELO (c)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-meta" class="alternada contagem"><h2>META (v)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-bt" class="contagem"><h2>BT (b)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-seg" class="alternada contagem"><h2>SEG (n)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-linfo" class="alternada contagem"><h2>LINFO (m)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-mono" class="contagem"><h2>MONO (,)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-blt" class="alternada contagem"><h2>BLT (.)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-erit" class="contagem"><h2>ERIT (;)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-aux" class="alternada contagem"><h2>AUX (/)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			<li id="cel-aux2" class="contagem"><h2>AUX2 (shift)</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+		</ul>
+		
+		<div id="informacao">			
+			<ul class="opcoes">
+				<li><span>Amostragem:</span> <input type="text" value="100" id="txtAmostragem" /></li>
+				<li><span>Eritroblastos:</span> <input type="checkbox" id="chkEritroblastos" /></li>
+			</ul>
+		
+			<ul id="total" class="celula">
+				<li><h2>TOTAL</h2><span class="valor">0</span><span class="porcentagem">0%</span></li>
+			</ul>
+		</div>
+		
+		<p>desenvolvido por <a href="http://dmenezes.com.br" target="_blank">Diogo Menezes</a></p>	
+		<br clear="all"/>
+	</div>
+</body>
+</html>

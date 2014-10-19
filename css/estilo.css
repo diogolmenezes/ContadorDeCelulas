@@ -1,0 +1,37 @@
+*  { margin:0px; padding:0px; }
+body { color:#333333; }
+p  { text-align:center; clear:both;  }
+a  { color:#8F0000; }
+ul { list-style:none; }	
+
+#painel    { margin:auto; margin-top:20px; width:1000px; border:1px solid #ddd; padding:20px; background:#f5f5f5; -moz-border-radius: 10px; -webkit-border-radius: 10px;-khtml-border-radius: 10px; border-radius: 10px; }	
+#painel h1 { margin-bottom:40px; border-bottom:1px solid #DDD; padding-bottom:15px; font-weight:normal; font-size:35px; }
+#painel h1 span { margin-left:20px; font-size:25px; }	
+
+ul#contador { width:750px; float:left; }
+
+ul.celula li { 
+	float:left; margin-right:20px; background:url(../img/cel-vermelha.png) 0px 30px no-repeat; width:100px; height:140px; 
+	text-align:center;	color:#FFF; font-size:35px;
+	margin-bottom:25px;
+}
+
+ul.celula li span { display:block; }
+
+ul.celula li span.porcentagem { border-top:1px solid #f5f5f5;  font-size:25px;  width:80px; margin-left:10px; padding-top:5px; }
+
+ul.celula li h2 { 
+	font-size:18px;
+	margin-bottom:20px;		
+	color:#333333;
+}
+
+ul.celula li.alternada { background:url(../img/cel-branca.png) 0px 30px no-repeat; color:#8F0000; }
+ul.celula li.alternada span.porcentagem { border-top:1px solid #ccc; }
+
+
+#informacao 		   { float:right; width:200px; border-left:1px solid #ddd; padding-left:40px; }	
+#informacao ul.opcoes li span { display:block; width:115px; float:left;  }
+#informacao ul.opcoes input[type="text"] { width:60px; font-size:25px; }
+#informacao ul.opcoes li { clear:both; margin-bottom:15px; }
+#informacao ul.opcoes { margin-bottom:40px; font-size:20px; }
